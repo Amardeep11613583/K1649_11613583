@@ -20,8 +20,7 @@ int main()
   } 
   
   time=arrivaltime[0];
-printf(" 1st iteration \t\n"); 
- // scanf("%d",&timequantum); 
+printf(" 1st iteration \t\n");
  timequantum=7;
  	for(i=0;i<n;i++){
 		if(arrivaltime[i]<=time && runningtime[i]!=0)
@@ -42,7 +41,6 @@ printf(" 1st iteration \t\n");
 		}
 	}
 printf("\n\n2nd iterationas\t\n"); 
- // scanf("%d",&timequantum2);
  timequantum2=10;
   for(i=0;i<n;i++)
   {
